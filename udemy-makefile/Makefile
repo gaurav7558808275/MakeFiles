@@ -14,4 +14,3 @@ clean_custom:
 clean:
 	rm -fr d1 d2 d3 f1.c f2.c f3.c
 
-
