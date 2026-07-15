@@ -1,6 +1,7 @@
 #include <iostream>
 #include "header.h"
-void function_2()
+
+void function_2(void)
 {
-	std::cout << "Function is called \n";
+	std::cout << "This function is working \n";
 }

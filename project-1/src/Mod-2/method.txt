@@ -1,0 +1,5 @@
+1) Create a C program which is going to call the fuction "funciton_2()"
+2) First, create 2 files .h and .cpp. Here I have created header.h and header.cpp
+3) Creat a dynamic library. command is as follows : g++ -fPIC -shared header.cpp -o libheader.so
+4) Now link to clearthe main program. Command is as follows : g++ test_mod.cpp -o L. -lheader
+5) Add path to export LD_LIBRARY_PATH=: "path of the working directory"
